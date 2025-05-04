@@ -1,0 +1,185 @@
+body {
+  background-color: #ececec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #222831;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #222831;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  color: #222831;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  background-color: #005792;
+  color: #e7eaf6;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.tab-content {
+  margin-bottom: 10px;
+}
+
+#key-press-display {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 30px;
+  background-color: #005792;
+  color: #e7eaf6;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button-one {
+  padding: 15px 20px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffcab0;
+  color: #222831;
+  font-size: 20px;
+}
+
+.food-container {
+  display: block;
+  background-color: #bbe4e9;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px 300px;
+}
+
+.food {
+  text-align: center;
+  margin-top: 0;
+}
+
+.button-two {
+  padding: 10px 15px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #005792;
+  color: #dbd8e3;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-two:hover {
+  background-color: #e7eaf6;
+  color: #005792;
+}
+
+.slide {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 60px;
+  transform: scale(1.5);
+}
+
+.form-container {
+  display: block;
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px 100px;
+}
+
+.input-content {
+  margin-top: 15px;
+}
+
+.input-content input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.dark {
+  background: radial-gradient(
+    780px at 37.8% 100.3%,
+    rgb(19, 55, 115) 2.2%,
+    rgb(32, 7, 80) 20.2%,
+    rgb(27, 88, 111) 58.6%,
+    rgb(115, 88, 44) 75%,
+    rgb(99, 19, 90) 89.6%,
+    rgb(12, 51, 76) 96.1%
+  );
+}
+
+.dark h1 {
+  color: white;
+}
+
+.dark h2 {
+  color: white;
+}
+
+.dark h3 {
+  color: white;
+}
+
+.dark label {
+  color: white;
+}
+.dark .tab {
+  background-color: #22313f;
+  color: #8dc6ff;
+}
+
+.dark .tab-content {
+  color: white;
+}
+
+.dark .food-container {
+  background-color: #c7b198;
+}
+
+.dark .form-container {
+  background-color: #a7bcb9;
+  color: #222831;
+}
+
+.dark #key-press-display {
+  background-color: #22313f;
+  color: #e3f6f5;
+}
+
+.error {
+  color: red;
+}
+
+.feedback {
+  color: green;
+}

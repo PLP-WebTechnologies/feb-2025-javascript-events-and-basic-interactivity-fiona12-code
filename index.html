@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="button-one" id="first-button">Theme</button>
+
+    <h1>Meal plan</h1>
+
+    <h2>Baby's meal plan</h2>
+
+    <div class="tab-container">
+      <button class="tab" onclick="openTab('tab1')">Main meal</button> <br />
+      <button class="tab" onclick="openTab('tab2')">Snacks</button> <br />
+    </div>
+
+    <div id="tab1" class="tab-content">Balanced diet</div>
+    <div id="tab2" class="tab-content">Healthy snack</div>
+
+    <div class="food-container">
+      <h3 id="food-heading" class="food">Click button</h3>
+
+      <button class="button-two" id="second-button">Food groups</button>
+
+      <div class="slideshow-container">
+        <img class="slide" src="dairy.jpeg" alt="dairy foods" />
+        <img
+          class="slide"
+          src="Fruits.jpg"
+          alt="fruits"
+          height="200"
+          width="300"
+        />
+        <img
+          class="slide"
+          src="Grains.jpeg"
+          alt="grains"
+          height="200"
+          width="300"
+        />
+        <img class="slide" src="protein group.jpeg" alt="proteins" />
+        <img
+          class="slide"
+          src="Vegetables.jpg"
+          alt="vegetables"
+          height="200"
+          width="300"
+        />
+      </div>
+    </div>
+
+    <div class="form-container">
+      <h3>Fill form to access meal planning page:</h3>
+
+      <form action="">
+        <div class="input-content">
+          <label for="name">Parent's name</label>
+          <input id="name" type="text" placeholder="Enter your name" required />
+        </div>
+
+        <div class="input-content">
+          <label for="baby's name">Baby's name</label>
+          <input
+            id="baby-name"
+            type="text"
+            placeholder="Enter baby's name"
+            required
+          />
+        </div>
+
+        <div class="input-content">
+          <label for="baby's age">Baby's age</label>
+          <input
+            id="baby-age"
+            type="text"
+            placeholder="Enter baby's age"
+            required
+          />
+        </div>
+
+        <div class="input-content">
+          <label for="baby's weight">Baby's weight</label>
+          <input
+            id="baby-weight"
+            type="text"
+            placeholder="Enter baby's weight"
+            required
+          />
+        </div>
+
+        <div class="input-content">
+          <label for="baby's height">Baby's height</label>
+          <input
+            id="baby-height"
+            type="text"
+            placeholder="Enter baby's height"
+            required
+          />
+        </div>
+
+        <div class="input-content">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="input-content">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+        <ul id="feedback">
+          <li id="length">❌ At least 8 characters</li>
+          <li id="upper">❌ At least one uppercase letter</li>
+          <li id="lower">❌ At least one lowercase letter</li>
+          <li id="number">❌ At least one number</li>
+          <li id="special">❌ At least one special character</li>
+        </ul>
+        <p id="error"></p>
+        <br />
+
+        <div class="input-content">
+          <label for="submit">Submit</label>
+          <input type="submit" value="Submit" />
+        </div>
+        <p id="error"></p>
+      </form>
+    </div>
+
+    <div id="key-press-display"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
